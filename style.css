@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: #555;
+    /* border: 1px solid black; */
+    width: 100%;
+    overflow: auto;
+}
+
+.navbar a{
+    float:left;
+    font-size: 17px;
+    color:white;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 12px;
+}
+.navbar a:hover{
+    background-color: black;
+    /* color:yellow;
+    text-decoration: underline; */
+}
+.active{
+    background-color:orangered;
+}
+.navbar a i{
+    padding-right: 8px;
+    font-size: 15px;
+}
